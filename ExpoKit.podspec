@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
     ss.dependency 'AppAuth', '~> 0.4'
     ss.dependency 'CocoaLumberjack', '~> 3.2.1'
     ss.dependency 'Crashlytics', '~> 3.8'
-    ss.dependency 'FBAudienceNetwork', '4.99.0'
     ss.dependency 'FBSDKCoreKit', '~> 4.28'
     ss.dependency 'FBSDKLoginKit', '~> 4.28'
     ss.dependency 'FBSDKShareKit', '~> 4.28'
@@ -36,6 +35,7 @@ Pod::Spec.new do |s|
     ss.dependency 'JKBigInteger2', '0.0.5'
     ss.dependency 'Branch', '~> 0.24.2'
     ss.dependency 'Google-Mobile-Ads-SDK', '~> 7.22.0'
+    ss.dependency 'FBAudienceNetwork', '4.99.0'
     ss.dependency 'React' # explicit dependency required for CocoaPods >= 1.5.0
 
     # Universal modules required by ExpoKit so the code compiles
